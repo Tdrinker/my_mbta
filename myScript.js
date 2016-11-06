@@ -85,9 +85,13 @@ function getMyLocation() {
          navigator.geolocation.getCurrentPosition(function(position) {
             this.myLat = position.coords.latitude;
             this.myLng = position.coords.longitude;
+            
+            console.log(this.myLat);
+            console.log(this.myLng);
 
             renderMap();
         });
+
     }
     else {
         alert("Geolocation is not supported by your web browser.  What a shame!");
