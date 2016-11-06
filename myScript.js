@@ -1,3 +1,7 @@
+// AIzaSyD7WllnZywOmp8cv3B9mSzDW7PCK5ZZBy0
+
+
+
 var myLat = 0;
 var myLng = 0;
 var request = new XMLHttpRequest();
@@ -294,10 +298,3 @@ function funex(){
         }
     }
 }
-
-
-
-
-
-
-
